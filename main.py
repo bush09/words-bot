@@ -1,9 +1,9 @@
 import		os
-		from		fastapi	import FastAPI, Request
-		from		aiogram	import Bot, Dispatcher
-		from		aiogram.types import Update
+from fastapi import FastAPI, Request
+from aiogram import Bot, Dispatcher
+from aiogram.types import Update
 
-		from		bot	import bot, dp
+from bot	import bot, dp
 
 		WEBHOOK_URL = os.
 getenv("WEBHOOK_URL")
